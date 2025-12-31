@@ -179,7 +179,7 @@ export default function App() {
 
         <div className="flex flex-wrap gap-4">
           {/* Email */}
-          <a href="mailto:thanuphat.dev@gmail.com">
+          <a href="mailto:kinakozaza007@gmail.com">
             <Button
               variant="outline"
               className="
