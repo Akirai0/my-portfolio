@@ -199,7 +199,7 @@ export default function App() {
           </a>
 
           {/* GitHub */}
-          <a href="https://github.com/AKirai0" target="_blank">
+          <a href="https://github.com/Akirai0" target="_blank">
             <Button
               variant="outline"
               className="
