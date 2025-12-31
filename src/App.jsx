@@ -85,7 +85,7 @@ export default function App() {
           className="flex justify-center md:justify-end"
         >
           <img
-            src="/public/img/profile.jpg"
+            src="/img/profile.jpg"
             alt="Profile"
             className="w-56 h-56 rounded-full object-cover shadow-2xl ring-4 ring-white/30"
           />

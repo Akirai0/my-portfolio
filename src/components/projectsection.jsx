@@ -15,10 +15,10 @@ const projects = [
         tech: ["Unity", "C#", "TextMeshPro"],
         role: "Game Design, Programming",
         screenshots: [
-            "src/screenshots/1.png",
-            "src/screenshots/2.png",
-            "src/screenshots/3.png",
-            "src/screenshots/4.png",
+            "/screenshots/1.png",
+            "/screenshots/2.png",
+            "/screenshots/3.png",
+            "/screenshots/4.png",
         ],
         features: [
             "Romaji to Hiragana conversion",
