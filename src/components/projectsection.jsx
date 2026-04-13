@@ -11,7 +11,7 @@ const projects = [
         title: "Kana Taisen Typing Battle Game",
         short: "typing game for learning Japanese Hiragana.",
         description:
-            "This Unity-based game helps players practice Hiragana and JLPT N5/N4 vocabulary through real-time typing mechanics, combo systems, and audio feedback.",
+            "This Unity-based game helps players practice Hiragana, Katakana, Kanji, and N5 vocabulary through real-time typing mechanics, combo systems, and audio feedback.",
         tech: ["Unity", "C#", "TextMeshPro"],
         role: "Game Design, Programming",
         screenshots: [
@@ -24,19 +24,6 @@ const projects = [
             "Romaji to Hiragana conversion",
             "Combo & scoring system",
             "Audio-based typing mode",
-        ],
-    },
-    {
-        title: "Boss Fight Word Game",
-        short: "Action typing game with dynamic boss AI.",
-        description:
-            "A fast-paced typing game featuring boss fights, random word generation, multiple bullet types, and adaptive enemy behaviors.",
-        tech: ["Unity", "C#", "AI Logic"],
-        role: "Gameplay Programming",
-        features: [
-            "Dynamic boss attack patterns",
-            "Word-based combat mechanics",
-            "Camera shake & VFX feedback",
         ],
     },
 ];
