@@ -141,11 +141,11 @@ export default function App() {
             <div className="absolute inset-0 -z-10 rounded-2xl bg-primary/10 blur-2xl opacity-0 hover:opacity-100 transition" />
 
             <h3 className="text-xl font-semibold">
-              FACULTY OF INDUSTRIAL TECHNOLOGY AND MANAGEMENT
+              King Mongkut's University of Technology North Bangkok  • 2024 – 2026
             </h3>
 
             <p className="text-sm text-muted-foreground mt-1">
-              King Mongkut's University of Technology North Bangkok  • 2024 – 2026
+              FACULTY OF INDUSTRIAL TECHNOLOGY AND MANAGEMENT
             </p>
 
             <p className="mt-4 text-sm leading-relaxed">
