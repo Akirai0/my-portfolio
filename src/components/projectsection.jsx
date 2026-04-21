@@ -176,6 +176,8 @@ export default function ProjectsSection() {
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
                                 <a
                                     href="https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-full block"
                                 >
                                     <Button className="w-full">
