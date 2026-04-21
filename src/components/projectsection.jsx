@@ -172,7 +172,14 @@ export default function ProjectsSection() {
                                     </span>
                                 ))}
                             </div>
-
+                            <a
+                                href="https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-md transition"
+                            >
+                                <Button className="w-full">View Demo</Button>
+                            </a>
                             <Button className="w-full" onClick={() => setActive(null)}>
                                 Close
                             </Button>
