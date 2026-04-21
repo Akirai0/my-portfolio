@@ -172,17 +172,29 @@ export default function ProjectsSection() {
                                     </span>
                                 ))}
                             </div>
-                            <a
-                                href="https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-block bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-md transition"
-                            >
-                                <Button className="w-full">View Demo</Button>
-                            </a>
-                            <Button className="w-full" onClick={() => setActive(null)}>
-                                Close
-                            </Button>
+                            <div className="flex flex-col gap-2">
+                                {/* ปุ่ม Download (ไม่ปิด Modal) */}
+                                <a
+                                    href="https://drive.google.com/uc?export=download&id=1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R"
+                                    download
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="w-full block"
+                                >
+                                    <Button className="w-full">
+                                        Download
+                                    </Button>
+                                </a>
+
+                                {/* ปุ่ม Close (สำหรับปิด Modal) */}
+                                <Button
+                                    className="w-full"
+                                    variant="outline" /* แนะนำให้ใช้ variant แบบโปร่ง หรือสีเทา เพื่อให้ปุ่ม Download เด่นกว่า */
+                                    onClick={() => setActive(null)}
+                                >
+                                    Close
+                                </Button>
+                            </div>
                         </motion.div>
                     </motion.div>
                 )}
