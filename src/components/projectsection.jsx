@@ -175,7 +175,7 @@ export default function ProjectsSection() {
                             <div className="flex flex-col gap-2">
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
                                 <a
-                                    href="https://drive.google.com/uc?export=download&id=1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R"
+                                    href="https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link"
                                     className="w-full block"
                                 >
                                     <Button className="w-full">
