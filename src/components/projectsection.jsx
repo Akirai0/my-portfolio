@@ -42,7 +42,7 @@ const projects = [
             "/screenshots/s5.png",
         ],
         features: [],
-        dowdload: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
+        dowdload: "https://drive.google.com/file/d/1l1ljALbS5TnGV_eSHlpIbCN-eFJKoQyR/view?usp=sharing",
     },
 ];
 
