@@ -25,6 +25,24 @@ const projects = [
             "Combo & scoring system",
             "Audio-based typing mode",
         ],
+        dowdload: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
+    },
+    {
+        title: "เกมส่งเสริมทักษะคอมพิวเตอร์เบื้องต้น",
+        short: "เกมที่ช่วยให้ผู้เล่นฝึกพิมพ์และใช้โปรแกรมพื้นฐานผ่านการเล่นสนุกๆ",
+        description:
+            "",
+        tech: ["Unity", "C#", "TextMeshPro"],
+        role: "Game Design, Programming",
+        screenshots: [
+            "/screenshots/s1.png",
+            "/screenshots/s2.png",
+            "/screenshots/s3.png",
+            "/screenshots/s4.png",
+            "/screenshots/s5.png",
+        ],
+        features: [],
+        dowdload: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
     },
 ];
 
@@ -175,7 +193,7 @@ export default function ProjectsSection() {
                             <div className="flex flex-col gap-2">
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
                                 <a
-                                    href="https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link"
+                                    href={active.download}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-full block"
