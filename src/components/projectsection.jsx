@@ -193,7 +193,7 @@ export default function ProjectsSection() {
                             <div className="flex flex-col gap-2">
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
                                 <a
-                                    href={active.download}
+                                    href={active.dowdload}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-full block"
