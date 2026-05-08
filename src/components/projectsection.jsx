@@ -28,8 +28,8 @@ const projects = [
         dowdload: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
     },
     {
-        title: "เกมส่งเสริมทักษะคอมพิวเตอร์เบื้องต้น",
-        short: "เกมที่ช่วยให้ผู้เล่นฝึกพิมพ์และใช้โปรแกรมพื้นฐานผ่านการเล่นสนุกๆ",
+        title: "Basic Computer Skills Game",
+        short: "A basic computer skills educational game developed with Unity . The game was designed to help players learn fundamental computer concepts, including hardware, software, basic digital skills through interactive gameplay, quizzes, and mini-games. The project focuses on combining entertainment with educational content to create an engaging learning experience for beginners",
         description:
             "",
         tech: ["Unity", "C#", "TextMeshPro"],
