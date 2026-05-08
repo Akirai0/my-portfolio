@@ -29,7 +29,7 @@ const projects = [
     },
     {
         title: "Basic Computer Skills Game",
-        short: "A basic computer skills educational game developed with Unity . The game was designed to help players learn fundamental computer concepts, including hardware, software, basic digital skills through interactive gameplay, quizzes, and mini-games. The project focuses on combining entertainment with educational content to create an engaging learning experience for beginners",
+        short: "A basic computer skills educational game.",
         description:
             "",
         tech: ["Unity", "C#", "TextMeshPro"],
