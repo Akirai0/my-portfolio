@@ -19,10 +19,10 @@ const experiences = [
         ],
         tech: ["Html", "Tailwind CSS", "Mikrotik", "Networking", "Configurationx"],
         images: [
-            "/public/img/experience/e1.jpg",
-            "/public/img/experience/e2.jpg",
-            "/public/img/experience/e3.jpg",
-            "/public/img/experience/e4.jpg",
+            "/experience/e1.jpg",
+            "/experience/e2.jpg",
+            "/experience/e3.jpg",
+            "/experience/e4.jpg",
         ]
     },
     {
