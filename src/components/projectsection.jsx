@@ -31,7 +31,7 @@ const projects = [
         title: "P'Bit Nong Brite",
         short: "a educational game designed to help children learn through fun and engaging gameplay.",
         description: "Responsible for testing the P'Bit Nong Brite game system, ensuring a smooth and enjoyable gaming experience for children. Conducted comprehensive testing to identify and resolve bugs, improve gameplay mechanics, and enhance overall user experience.",
-        tech: "",
+        tech: ["Next.js", "Tailwind CSS", "Prisma", "Node.js"],
         role: "QA",
         screenshots: [
             "/screenshots/p1.png",
@@ -45,8 +45,7 @@ const projects = [
             "/screenshots/p9.png",
         ],
         features: [],
-        download: "pbit-nongbrite-project-frontend-2.vercel.app",
-
+        playUrl: "https://pbit-nongbrite-project-frontend-2.vercel.app/",
     },
     {
         title: "Animal hotel booking system (Mini Project)",
@@ -230,6 +229,18 @@ export default function ProjectsSection() {
                                 ))}
                             </div>
                             <div className="flex flex-col gap-2">
+                                {active.playUrl && (
+                                    <a
+                                        href={active.playUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-full block"
+                                    >
+                                        <Button className="w-full">
+                                            Play Now
+                                        </Button>
+                                    </a>
+                                )}
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
                                 {active.download && (
                                     <a

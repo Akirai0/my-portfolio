@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Github, Mail, Gamepad2, Globe, Linkedin, Facebook, Twitter, Code  } from "lucide-react"
 import ProjectsSection from "@/components/projectsection.jsx"
 import CertificatesSection from "@/components/CertificatesSection.jsx"
+import ExperienceSection from "@/components/ExperienceSection.jsx"
 
 export default function App() {
   const [dark, setDark] = useState(true)
@@ -121,7 +122,7 @@ export default function App() {
               <Code className="mb-4"/>
               <h3 className="font-semibold mb-2">Programming</h3>
               <p className="text-sm opacity-80">
-                C, C++, C#, Python, JavaScript
+                C, C++, C#, Python, Java, JavaScript
               </p>
             </CardContent>
           </Card>
@@ -153,7 +154,7 @@ export default function App() {
               with a focus on building practical applications and user-centered
               digital experiences.
             </p>
-
+            <p className="mt-4 text-sm leading-relaxed">GPAX: 3.34</p>
             <ul className="mt-4 list-disc list-inside text-sm space-y-1">
               <li>
                 Graduation Project: <span className="font-medium">
@@ -166,6 +167,9 @@ export default function App() {
           </div>
         </div>
       </section>
+      
+      {/* EXPERIENCE */}
+      <ExperienceSection />
 
       {/* ACHIEVEMENTS & CERTIFICATES */}
       <CertificatesSection />
