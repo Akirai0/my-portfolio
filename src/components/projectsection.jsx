@@ -25,7 +25,7 @@ const projects = [
             "Combo & scoring system",
             "Audio-based typing mode",
         ],
-        dowdload: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
+        download: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
     },
     {
         title: "P'Bit Nong Brite",
@@ -45,7 +45,7 @@ const projects = [
             "/screenshots/p9.png",
         ],
         features: [],
-        dowdload: "pbit-nongbrite-project-frontend-2.vercel.app",
+        download: "pbit-nongbrite-project-frontend-2.vercel.app",
 
     },
     {
@@ -81,7 +81,7 @@ const projects = [
             "/screenshots/s5.png",
         ],
         features: [],
-        dowdload: "https://drive.google.com/file/d/1l1ljALbS5TnGV_eSHlpIbCN-eFJKoQyR/view?usp=sharing",
+        download: "https://drive.google.com/file/d/1l1ljALbS5TnGV_eSHlpIbCN-eFJKoQyR/view?usp=sharing",
     },
 ];
 
@@ -231,16 +231,18 @@ export default function ProjectsSection() {
                             </div>
                             <div className="flex flex-col gap-2">
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
-                                <a
-                                    href={active.download}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="w-full block"
-                                >
-                                    <Button className="w-full">
-                                        Download
-                                    </Button>
-                                </a>
+                                {active.download && (
+                                    <a
+                                        href={active.download}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-full block"
+                                    >
+                                        <Button className="w-full">
+                                            Download
+                                        </Button>
+                                    </a>
+                                )}
 
                                 {/* ปุ่ม Close (สำหรับปิด Modal) */}
                                 <Button
