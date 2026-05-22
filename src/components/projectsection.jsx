@@ -30,7 +30,7 @@ const projects = [
     {
         title: "P'Bit Nong Brite",
         short: "a educational game designed to help children learn through fun and engaging gameplay.",
-        description: "Responsible for testing the P'Bit Nong Brite game system, an educational game designed to help children learn through fun and engaging gameplay. The game was created to encourage sequencing, observation, classification, prediction, and analytical thinking skills through a variety of interactive mini-games.",
+        description: "Responsible for testing the P'Bit Nong Brite game system, ensuring a smooth and enjoyable gaming experience for children. Conducted comprehensive testing to identify and resolve bugs, improve gameplay mechanics, and enhance overall user experience.",
         tech: "",
         role: "QA",
         screenshots: [
