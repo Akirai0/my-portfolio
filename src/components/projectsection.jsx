@@ -8,12 +8,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const projects = [
     {
-        title: "Kana Taisen Typing Battle Game",
+        title: "Kana Taisen Typing Battle Game (Thesis Project)",
         short: "typing game for learning Japanese Hiragana.",
         description:
             "This Unity-based game helps players practice Hiragana, Katakana, Kanji, and N5 vocabulary through real-time typing mechanics, combo systems, and audio feedback.",
         tech: ["Unity", "C#", "TextMeshPro"],
-        role: "Game Design, Programming",
+        role: "Game Developer, Game Design, Sound Design, QA",
         screenshots: [
             "/screenshots/1.png",
             "/screenshots/2.png",
@@ -26,6 +26,45 @@ const projects = [
             "Audio-based typing mode",
         ],
         dowdload: "https://drive.google.com/file/d/1svZu8ret-R0VCFmeAP4W-XlaBPsLR57R/view?usp=drive_link",
+    },
+    {
+        title: "P'Bit Nong Brite",
+        short: "a educational game designed to help children learn through fun and engaging gameplay.",
+        description: "Responsible for testing the P'Bit Nong Brite game system, an educational game designed to help children learn through fun and engaging gameplay. The game was created to encourage sequencing, observation, classification, prediction, and analytical thinking skills through a variety of interactive mini-games.",
+        tech: "",
+        role: "QA",
+        screenshots: [
+            "/screenshots/p1.png",
+            "/screenshots/p2.png",
+            "/screenshots/p3.png",
+            "/screenshots/p4.png",
+            "/screenshots/p5.png",
+            "/screenshots/p6.png",
+            "/screenshots/p7.png",
+            "/screenshots/p8.png",
+            "/screenshots/p9.png",
+        ],
+        features: [],
+        dowdload: "pbit-nongbrite-project-frontend-2.vercel.app",
+
+    },
+    {
+        title: "Animal hotel booking system (Mini Project)",
+        short: "A hotel booking system for animals.",
+        description:
+            "This project is a hotel booking system for animals, designed to manage reservations, check-ins, and check-outs efficiently. It includes features such as room availability tracking, customer management, and booking history.",
+        tech: ["Java", "Sql"],
+        role: "Backend Developer",
+        screenshots: [
+            "/screenshots/h1.png",
+            "/screenshots/h2.png",
+            "/screenshots/h3.png",
+            "/screenshots/h4.png",
+            "/screenshots/h5.png",
+            "/screenshots/h6.png",
+            "/screenshots/h7.png",
+        ],
+        features: [],
     },
     {
         title: "Basic Computer Skills Game",
@@ -193,7 +232,7 @@ export default function ProjectsSection() {
                             <div className="flex flex-col gap-2">
                                 {/* ปุ่ม Download (ไม่ปิด Modal) */}
                                 <a
-                                    href={active.dowdload}
+                                    href={active.download}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-full block"
