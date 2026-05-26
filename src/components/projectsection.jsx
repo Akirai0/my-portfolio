@@ -45,7 +45,7 @@ const projects = [
             "/screenshots/p9.png",
         ],
         features: [],
-        playUrl: "https://pbit-nongbrite-project-frontend-2.vercel.app/",
+        playUrl: "https://pbit-nongbrite.vercel.app/",
     },
     {
         title: "Animal hotel booking system (Mini Project)",
