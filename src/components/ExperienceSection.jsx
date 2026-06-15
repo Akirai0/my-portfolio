@@ -29,7 +29,7 @@ const experiences = [
         id: 2,
         role: "Brand Shop Manager",
         company: "vivo (Lotus's Aranyaprathet Branch)",
-        date: "Mar 2023 - May 2023",
+        date: "Mar 2024 - May 2024",
         type: "Work Experience",
         description: [
             "Managed overall store operations and sales strategies to consistently meet brand targets and performance standards.",
