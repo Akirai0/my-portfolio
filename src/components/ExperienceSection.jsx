@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Briefcase, Calendar, MapPin, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-// 1. จำลองข้อมูล (เพิ่มฟิลด์ images เข้ามา)
+
 const experiences = [
     {
         id: 1,
@@ -17,7 +17,7 @@ const experiences = [
             "Developed and maintained web applications, assisting in various frontend and backend tasks.",
             "Served as an assistant trainer for MikroTik workshops, assisting participants with router configurations, network troubleshooting, and answering technical inquiries.",
         ],
-        tech: ["Html", "Tailwind CSS", "Mikrotik", "Networking", "Configurationx"],
+        tech: ["Html", "Tailwind CSS", "Mikrotik", "Networking", "Configuration"],
         images: [
             "/experience/e1.jpg",
             "/experience/e2.jpg",
@@ -37,12 +37,40 @@ const experiences = [
             "Oversaw inventory management, conducted stock audits, and generated monthly sales analysis reports to evaluate store performance.",
         ],
         tech: ["Manager", "Customer Service", "Sales"],
-        // ตัวอย่างประสบการณ์ที่ "ไม่มีรูป" โค้ดก็จะไม่พังครับ
+        images: [
+            "/experience/vivo1.jpg",
+            "/experience/vivo2.jpg",
+            "/experience/vivo3.jpg",
+            "/experience/vivo4.jpg",
+        ]
+    },
+    {
+        id: 3,
+        role: "Technical Support Intern",
+        company: "National Telecom Public Company Limited (NT)",
+        date: "May 2023 - Sep 2023",
+        type: "Internship",
+        description: [
+            "Managed and resolved customer complaint cases via the CRM system.",
+
+            "Updated customer profiles, including installation and billing address modifications.",
+
+            "Conducted on-site field surveys and marketing visits to collect documents and capture GPS coordinates for installation feasibility.",
+
+            "Configured routers and prepared hardware equipment for technical deployment at customer premises."
+        ],
+        tech: ["CRM", "Customer Service", "Technical Support"],
+        images: [
+            "/experience/nt1.jpg",
+            "/experience/nt2.jpg",
+            "/experience/nt3.jpg",
+            "/experience/nt4.jpg",
+        ]
     }
 ];
 
 export default function ExperienceSection() {
-    // State สำหรับจัดการเวลากดขยายดูรูปเต็มๆ
+    // State สำหรับจัดการเวลากดขยายดูรูปเต็ม
     const [selectedImage, setSelectedImage] = useState(null);
 
     return (
@@ -95,7 +123,7 @@ export default function ExperienceSection() {
                                     ))}
                                 </ul>
 
-                                {/* ---------- ส่วนแสดงรูปภาพ (Gallery) ---------- */}
+                                {/* ---------- ส่วนแสดงรูปภาพ ---------- */}
                                 {exp.images && exp.images.length > 0 && (
                                     <div className="mb-6">
                                         <p className="text-sm font-semibold mb-2">Activity Photos</p>
@@ -139,26 +167,26 @@ export default function ExperienceSection() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        onClick={() => setSelectedImage(null)} // กดที่พื้นหลังสีดำเพื่อปิด
+                        onClick={() => setSelectedImage(null)}
                     >
                         <motion.div
                             initial={{ scale: 0.9, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             exit={{ scale: 0.9, opacity: 0 }}
                             className="relative max-w-4xl w-full"
-                            onClick={(e) => e.stopPropagation()} // ป้องกันไม่ให้กดโดนรูปแล้วปิด
+                            onClick={(e) => e.stopPropagation()}
                         >
-                            <Button 
-                                variant="ghost" 
+                            <Button
+                                variant="ghost"
                                 size="icon"
                                 className="absolute -top-12 right-0 text-white hover:bg-white/20 rounded-full"
                                 onClick={() => setSelectedImage(null)}
                             >
                                 <X size={24} />
                             </Button>
-                            <img 
-                                src={selectedImage} 
-                                alt="Expanded view" 
+                            <img
+                                src={selectedImage}
+                                alt="Expanded view"
                                 className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
                             />
                         </motion.div>

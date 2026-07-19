@@ -21,6 +21,25 @@ const certificates = [
         description: "Certificate for user management, AAA, and MikroTik User Manager.",
         image: "/certificates/mtcume.png",
     },
+    {
+        title: "Certificate of Completion: Introduction to Programming with Python",
+        year: 2024,
+        description: "Certificate of Completion: Introduction to Programming with Python - Samsung Innovation Campus (Sponsored by Thai Samsung Electronics Ltd.)",
+        image: "/certificates/Certificate_for_ss_python.jpg",
+    },
+    {
+        title: "3rd Runner-up, Computer Programming Skills",
+        year: 2022,
+        description: "3rd Runner-up in Computer Programming Skills Association of Future Thai Professionals (AFT), Eastern Region and Bangkok Jan 2022 | Rayong, Thailand",
+        image: "/certificates/a1.png",
+    },
+    {
+        title: "Silver Medal, Creative Computer Game Creation Competition",
+        year: 2018,
+        description: "Silver Medal, Creative Computer Game Creation Competition The 68th Student Arts and Crafts, Academic and Technology Fair",
+        image: "/certificates/a2.png",
+    }
+
 ];
 
 
@@ -43,7 +62,7 @@ export default function CertificatesSection() {
                         <div className="absolute inset-0 -z-10 rounded-2xl bg-primary/10 blur-2xl opacity-0 hover:opacity-100 transition" />
                         <h3 className="text-lg font-semibold">{cert.title}</h3>
                         <p className="text-sm text-muted-foreground mt-1">
-                            MikroTik • {cert.year}
+                           Year {cert.year}
                         </p>
                         <p className="mt-4 text-sm">{cert.description}</p>
                         <p className="mt-4 text-xs text-primary">Click to view certificate</p>

@@ -258,7 +258,7 @@ export default function ProjectsSection() {
                                 {/* ปุ่ม Close (สำหรับปิด Modal) */}
                                 <Button
                                     className="w-full"
-                                    variant="outline" /* แนะนำให้ใช้ variant แบบโปร่ง หรือสีเทา เพื่อให้ปุ่ม Download เด่นกว่า */
+                                    variant="outline"
                                     onClick={() => setActive(null)}
                                 >
                                     Close

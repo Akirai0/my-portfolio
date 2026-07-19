@@ -61,7 +61,7 @@ export default function App() {
             Thanuphat Buakamsri
           </h1>
           <p className="text-xl opacity-80 mb-6">
-            Game Developer • Unity • .NET
+            Game Developer • Software Developer • QA
           </p>
           {/* <p className="mb-8 leading-relaxed max-w-xl">
             นักพัฒนาเกมเพื่อการเรียนรู้ สนใจเกมฝึกพิมพ์และระบบ Interactive
@@ -112,7 +112,7 @@ export default function App() {
               <Globe className="mb-4" />
               <h3 className="font-semibold mb-2">Web Development</h3>
               <p className="text-sm opacity-80">
-                React, Tailwind, .NET, ASP.NET Core, SQL, PHP, MySQL
+                React, Tailwind CSS, .NET, ASP.NET Core, PHP, SQL, Spring Boot,
               </p>
             </CardContent>
           </Card>
